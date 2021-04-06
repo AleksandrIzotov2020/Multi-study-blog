@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import ru.izotov.domain.Message;
 import ru.izotov.repos.MessageRepo;
 
 import java.util.Map;
@@ -18,18 +19,14 @@ public class GettingController {
     @Autowired
     private MessageRepo messageRepo;
 
-    @GetMapping("/greeting")
-    public String greeting(
-            @RequestParam(name="name", required = false, defaultValue = "World") String name,
-            Map<String, Object> model
-    ){
-        model.put("name", name);
+    @GetMapping("/")
+    public String greeting(Map<String, Object> model){
         return "greeting";
     }
 
-    @GetMapping("/")
+    @GetMapping("/main")
     public String main(Map<String, Object> model){
-        model.put("messages", messageRepo);
+        model.put("messages", messageRepo.findAll());
         return "main";
     }
 }
