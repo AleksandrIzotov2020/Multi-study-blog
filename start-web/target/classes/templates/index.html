@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Study Blog</title>
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/main/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <!-- HEADER -->
-<div th:insert="blocks/header::header"/>
+<header class = "header">
+    <div class="container">
+        <div class="header_inner">
+
+            <a class="header_logo" href="/">
+                <img src="../img/StudyBlog-logo.png" alt="" width="150px" height="30px">
+            </a>
+
+            <form class="search" method="post">
+                <input class="search_line" type="search" placeholder="Search article...">
+                <button class="search-btn btn--red" type="submit">OK</button>
+            </form>
+
+            <nav class="nav">
+                <a class="nav_link" href="#">info</a>
+                <a class="nav_link" href="#">contacts</a>
+                <a class="nav_link" href="profile">profile</a>
+            </nav>
+        </div>
+    </div>
+</header>
 
 <!-- INRTO -->
 <div class="intro">
+    <img class="intro_background" src="../img/background-intro.jpg" alt="">
+    <div class="filter dark_blue9"></div>
     <div class="container">
         <div class="intro_inner">
             <h1 class="intro_title">here you can read and create articles</h1>
             <h2 class="intro_subtitle">To create and publish articles,
-                you need to log in to your profile</h2>
+                you need to log in to your profile or <a class="text_link" href="registration">register</a></h2>
             <a class="btn btn--red" href="login">Log in</a>
         </div>
     </div>
 </div>
 
+<!-- CONTENT -->
+
+<section class="content">
+    CONTENT
+</section>
+
+<!-- FOOTER -->
+<footer th:insert="blocks/footer::footer"/>
 </body>
 </html>

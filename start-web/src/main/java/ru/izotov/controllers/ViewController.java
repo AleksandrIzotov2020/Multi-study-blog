@@ -15,7 +15,4 @@ public class ViewController {
     public String index(Model model){
         return "index";
     }
-
-    @GetMapping("/info")
-    public String info(Model model) {return "info";}
 }
