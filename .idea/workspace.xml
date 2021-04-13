@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931fa10d-1188-430c-a138-a07bb293593e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/start-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/database-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/database-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,7 @@
       <workItem from="1618075149538" duration="4530000" />
       <workItem from="1618120245855" duration="23838000" />
       <workItem from="1618153268803" duration="2833000" />
-      <workItem from="1618326383940" duration="1893000" />
+      <workItem from="1618326383940" duration="2507000" />
     </task>
     <servers />
   </component>
