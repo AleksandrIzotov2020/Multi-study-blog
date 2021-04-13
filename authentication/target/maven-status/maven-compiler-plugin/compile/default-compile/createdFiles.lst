@@ -1,0 +1,3 @@
+org\izotov\controllers\RegistrationController.class
+org\izotov\config\MvcConfig.class
+org\izotov\config\WebSecurityConfig.class

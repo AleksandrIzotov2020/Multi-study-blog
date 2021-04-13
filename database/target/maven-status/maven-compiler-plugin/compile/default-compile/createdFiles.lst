@@ -1,0 +1,3 @@
+org\izotov\entities\Role.class
+org\izotov\repos\UserRepo.class
+org\izotov\entities\User.class
