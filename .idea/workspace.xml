@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931fa10d-1188-430c-a138-a07bb293593e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/static/css/auth/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/resources/static/css/auth/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/resources/templates/blocks/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/static/css/auth/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/static/css/auth/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/templates/blocks/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/target/classes/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-web/src/main/resources/static/css/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/start-web/src/main/resources/static/css/main/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-web/target/classes/static/css/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/start-web/target/classes/static/css/main/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +126,7 @@
       <workItem from="1618075149538" duration="4530000" />
       <workItem from="1618120245855" duration="23838000" />
       <workItem from="1618153268803" duration="2833000" />
-      <workItem from="1618326383940" duration="8693000" />
+      <workItem from="1618326383940" duration="9077000" />
     </task>
     <servers />
   </component>
